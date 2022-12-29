@@ -1,0 +1,35 @@
+body{
+    background:url("360_F_362241054_WAwFfvPpJlF30BjitjkW4nFRyF7OSn8o.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+h2{
+    background-color: rgb(4, 13, 13);
+    height: 30px;
+}
+
+
+table 
+{
+    width: 50%;
+    background-color: rgba(118, 220, 243, 0.91);
+    float: right;
+}
+.text-box h1{
+    font-size:130px ;
+    line-height:100px ;
+    margin-left:-1px ;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(11, 0, 0);
+    background: url("back.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+
+    }
+}
